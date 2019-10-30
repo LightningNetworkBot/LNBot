@@ -9,6 +9,7 @@ sudo apt-get install bitcoind
 ```
 
 Create `bitcoin.conf`:\
+`mkdir ~/.bitcoin`
 `touch ~/.bitcoin/bitcoin.conf`
 
 Copy and paste below to `bitcoin.conf` that was just created
