@@ -42,7 +42,7 @@ Install `golang`:\
 Add the line below to `.bashrc` file and run `source ~/.bashrc`:\
 `export PATH=$PATH:/usr/local/go/bin`  
 
-### Installing lnd
+### Download, compile and install lnd
 ```
 go get -d github.com/lightningnetwork/lnd
 cd ~/go/src/github.com/lightningnetwork/lnd
@@ -77,6 +77,10 @@ Log notice stdout
 ControlPort 9051
 CookieAuthentication 1
 ```
+
+Kill the running tor processes first (if there is any):\
+`sudo killall tor`
+
 Then run the `tor` with:\
 `tor &`
 
