@@ -86,6 +86,7 @@ Then run the `tor` with:\
 
 ## Configuring lnd
 Create `lnd.conf`:\
+`mkdir ~/.lnd`\
 `touch ~/.lnd/lnd.conf`\
 And paste the following:
 ```
